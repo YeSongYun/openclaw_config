@@ -50,7 +50,7 @@ $:
                 | tar xz -C /tmp/rcodesign --strip-components=1
               /tmp/rcodesign/rcodesign sign dist/openclaw-config-macos-amd64
               /tmp/rcodesign/rcodesign sign dist/openclaw-config-macos-arm64
-            - ls -lh dist/
+              ls -lh dist/
 
         # 2. 生成更新日志
         - name: generate changelog
